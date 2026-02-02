@@ -1,12 +1,22 @@
-# Nguyễn Văn Phong
+# Nguyen Van Phong
 
-👋 Xin chào, đây là Repository học tập của mình.
+### 👋 Welcome to my learning repository!
 
-Mình là sinh viên đang theo học môn **Nền tảng Phát triển Web (Web Development Fundamentals)**. Repository này được dùng để lưu trữ mã nguồn, bài tập và các dự án thực hành trong quá trình học môn này.
+I am a Computer Science student currently enrolled in the **Web Development Fundamentals** course.
+
+This repository is dedicated to documenting my progress throughout the semester. It serves as a central place to store my coursework, coding assignments, and practical projects related to web development.
 
 ---
 
-### 📌 Thông tin sinh viên
-* **Họ và tên:** Nguyễn Văn Phong
-* **Môn học:** Nền tảng Phát triển Web
-* **Mục tiêu:** Nắm vững kiến thức cơ bản và quy trình xây dựng ứng dụng Web.
+### 📂 Repository Purpose
+
+* **Coursework:** Submitting assignments and lab exercises.
+* **Projects:** Building and testing web applications to apply theoretical knowledge.
+* **Documentation:** Notes on web architecture, database design, and development workflows.
+
+---
+
+### 📌 Student Info
+* **Name:** Nguyen Van Phong
+* **Course:** Web Development Fundamentals
+* **Goal:** To build a strong foundation in designing and developing functional web applications.
