@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Information Form</title>
+  </head>
+  <body>
+    <h2>Basic Info</h2>
+    <hr />
+    <form>
+      <label form="Employee">Employee ID:</label>
+      <input
+        type="text"
+        name="employee"
+        id="employee"
+        placeholder="9"
+        required
+      />
+      <br /><br />
+
+      <label form="Lastname">Last Name:</label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="Dodsworth"
+        required
+      />
+      <br /><br />
+
+      <label form="Firstname">First Name:</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="Anne"
+        required
+      />
+      <br /><br />S
+
+      <label>Gender:</label><br />
+      <input type="radio" name="gender" required /> Male <br />
+      <input type="radio" name="gender" required /> Female <br />
+      <input type="radio" name="gender" required /> XXX <br />
+      <input type="radio" name="gender" required /> XXX <br /><br />
+
+      <label form="Title">Title:</label>
+      <input
+        type="text"
+        name="title"
+        id="title"
+        placeholder="Sales Representative"
+        required
+      />
+      <br /><br />
+
+      <label form="Suffix">Suffix:</label>
+      <input type="text" name="suffix" id="suffix" placeholder="" required />
+      <br /><br />
+
+      <label form="BirthDate">BirthDate:</label>
+      <input
+        type="datetime-local"
+        name="Birthdate"
+        id="Birthdate"
+        placeholder="1969-07-02 00:00:00"
+      />
+      <br /><br />
+
+      <label form="HireDate">HireDate:</label>
+      <input
+        type="datetime-local"
+        name="Hiredate"
+        id="Hiredate"
+        placeholder="1994-11-15 00:00:00"
+      />
+      <br /><br />
+
+      <label form="SSN">SSN # (if applicable):</label>
+      <input type="text" name="SSN" id="SSN" placeholder="" />
+      <br /><br />
+
+      <label form="ReportsTo">Reports To:</label>
+      <select name="ReportsTo" id="ReportsTo" required>
+        <option>Buchanan</option>
+        <option>Other</option>
+      </select>
+      <br /><br />
+    </form>
+
+    <h2>Contact Info</h2>
+    <hr />
+    <form>
+      <label form="Email">Email:</label>
+      <input
+        type="text"
+        name="Email"
+        id="Email"
+        placeholder="name@example.com"
+      />
+      <br /><br />
+
+      <label form="Address">Address:</label>
+      <input
+        type="text"
+        name="Address"
+        id="Address"
+        placeholder="7 Houndstooth Rd."
+      />
+      <br /><br />
+
+      <label form="City">City:</label>
+      <input type="text" name="City" id="City" placeholder="London" required />
+      <br /><br />
+
+      <label form="Region">Region:</label>
+      <input type="text" name="Region" id="Region" placeholder="" required />
+      <br /><br />
+
+      <label form="PostalCode">Postal Code:</label>
+      <input
+        type="text"
+        name="PostalCode"
+        id="PostalCode"
+        placeholder="WG2 7LT"
+        required
+      />
+      <br /><br />
+
+      <label>Country:</label>
+      <select name="Country" required>
+        <option>Russian Federation</option>
+        <option>Other</option>
+      </select>
+      <br /><br />
+
+      <label form="HomePhone">US Home Phone:</label>
+      <input
+        type="text"
+        name="HomePhone"
+        id="HomePhone"
+        placeholder="(234)234-2342"
+        required
+      />
+      <br /><br />
+
+      <label form="Photo">Photo:</label>
+      <input
+        type="text"
+        name="Photo"
+        id="Photo"
+        placeholder="[EmpID9.bmp]"
+        required
+      />
+      <br /><br />
+    </form>
+
+    <h2>Optional Info</h2>
+    <hr />
+    <form>
+      <label>Notes:</label>
+      <br />
+      <textarea
+        rows="5"
+        cols="40"
+        name="Notes"
+        placeholder="Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German ZZZ"
+      ></textarea>
+      <br /><br />
+
+      <label form="shift">Preferred Shift:</label><br />
+      <input type="checkbox" name="shift" id="shift1" checked /> Regular <br />
+      <input type="checkbox" name="shift" /> Grave Yard <br /><br />
+
+      <label form="Active">Active?:</label>
+      <input type="checkbox" name="Active" id="Active" checked /> Yes
+      <br /><br />
+
+      <label form="question">Are you human?</label> <br />Click to change
+      <input type="text" name="question" id="question" required />
+      <br /><br />
+
+      <button type="button">Cancel</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
