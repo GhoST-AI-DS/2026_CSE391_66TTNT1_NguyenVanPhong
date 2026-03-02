@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #4b1d52;
+}
+
+#page-logo a {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f7d046;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #f7d046;
+  font-weight: 500;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 25px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer img {
+  width: 40px;
+}
+#hero {
+  height: 450px;
+  background: url("/Lab02/assets/img/ocean.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#hero-content a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #f7d046;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#hero-content a:hover {
+  background: #e6c132;
+}
+
+/* HIGHLIGHTS */
+#highlights {
+  background: #bfe7e7;
+  padding: 50px;
+  text-align: center;
+}
+
+#highlights h2 {
+  margin-bottom: 30px;
+}
+
+#destinations {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.destination {
+  background: white;
+  width: 260px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 30%;
+}
+
+.destination img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.destination p {
+  padding: 15px;
+  font-weight: 500;
+}
+
+.destination strong {
+  color: #0b7d7d;
+}

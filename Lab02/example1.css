@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+input,
+textarea {
+  flex: 1;
+  padding: 8px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.bottom {
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: rgb(103, 176, 241);
+  padding: 8px 15px;
