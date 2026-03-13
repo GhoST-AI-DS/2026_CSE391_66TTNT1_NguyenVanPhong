@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Đăng Ký - Bài 2.1</title>
+    <link rel="stylesheet" href="css3.css" />
+  </head>
+  <body>
+    <h2>Đăng Ký Tài Khoản</h2>
+
+    <form id="registerForm" novalidate>
+      <div class="form-group">
+        <label for="fullname">Họ và tên</label>
+        <input type="text" id="fullname" required />
+        <span class="error" id="fullnameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Số điện thoại</label>
+        <input type="tel" id="phone" required placeholder="0123456789" />
+        <span class="error" id="phoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" required />
+        <span class="error" id="passwordError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Xác nhận mật khẩu</label>
+        <input type="password" id="confirmPassword" required />
+        <span class="error" id="confirmPasswordError"></span>
+      </div>
+
+      <div class="form-group">
+        <label>Giới tính</label>
+        <div class="gender-group">
+          <label
+            ><input type="radio" name="gender" value="Nam" required />
+            Nam</label
+          >
+          <label><input type="radio" name="gender" value="Nữ" /> Nữ</label>
+          <label><input type="radio" name="gender" value="Khác" /> Khác</label>
+        </div>
+        <span class="error" id="genderError"></span>
+      </div>
+
+      <div class="form-group checkbox-group">
+        <label>
+          <input type="checkbox" id="terms" required />
+          Tôi đồng ý với <strong>Điều khoản dịch vụ</strong> và
+          <strong>Chính sách bảo mật</strong>
+        </label>
+        <span class="error" id="termsError"></span>
+      </div>
+
+      <button type="submit">Đăng ký</button>
+    </form>
+
+    <div id="successMessage" class="success">
+      Đăng ký thành công! 🎉<br />
+      Chào mừng <span id="welcomeName"></span>!
+    </div>
+
+    <script src="script3.js"></script>
+  </body>
+</html>
