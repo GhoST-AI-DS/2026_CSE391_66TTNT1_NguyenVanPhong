@@ -1,0 +1,47 @@
+[
+  {
+    "studentId": "SV123456",
+    "fullName": "Nguyen Van Phong",
+    "dob": "2005-05-20",
+    "className": "A",
+    "gpa": "8.50",
+    "email": "phongnv@student.edu.vn",
+    "password": "Password123!"
+  },
+  {
+    "studentId": "SV234567",
+    "fullName": "Le Thi Mai",
+    "dob": "2004-11-12",
+    "className": "B",
+    "gpa": "9.20",
+    "email": "mailt@student.edu.vn",
+    "password": "StrongPass@2026"
+  },
+  {
+    "studentId": "SV345678",
+    "fullName": "Tran Hoang Nam",
+    "dob": "2006-01-30",
+    "className": "C",
+    "gpa": "7.85",
+    "email": "namth@student.edu.vn",
+    "password": "Admin#8888"
+  },
+  {
+    "studentId": "SV456789",
+    "fullName": "Pham Minh Anh",
+    "dob": "2005-09-15",
+    "className": "D",
+    "gpa": "8.90",
+    "email": "anhpm@student.edu.vn",
+    "password": "Secure@Key99"
+  },
+  {
+    "studentId": "SV567890",
+    "fullName": "Vu Duc Trong",
+    "dob": "2003-03-05",
+    "className": "A",
+    "gpa": "6.50",
+    "email": "trongvd@student.edu.vn",
+    "password": "Vuductrong$123"
+  }
+]

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quản lý sinh viên</title>
+    <link rel="stylesheet" href="students.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quản lý sinh viên</h1>
+
+      <div id="stats-bar" class="stats-bar">
+        Tổng số sinh viên: <span id="total-students">0</span> | Điểm trung bình
+        lớp:
+        <span id="avg-gpa">0.00</span>
+      </div>
+
+      <button id="btn-open-modal" class="btn-add">Thêm sinh viên</button>
+
+      <table id="student-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Mã sinh viên</th>
+            <th>Họ và tên</th>
+            <th>Ngày sinh</th>
+            <th>Lớp</th>
+            <th>Điểm trung bình</th>
+            <th>Hoạt động</th>
+          </tr>
+        </thead>
+        <tbody id="student-list"></tbody>
+      </table>
+    </div>
+
+    <div id="student-modal" class="modal">
+      <div class="modal-content">
+        <h2 id="modal-title">Thêm/Sửa Sinh Viên</h2>
+        <form id="student-form">
+          <input type="hidden" id="edit-index" />
+
+          <div class="form-group">
+            <label>Mã sinh viên *</label>
+            <input type="text" id="studentId" placeholder="VD: SV123456" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Họ và tên *</label>
+            <input type="text" id="fullName" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Ngày sinh *</label>
+            <input type="date" id="dob" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Lớp học *</label>
+            <select id="className">
+              <option value="">Chọn lớp</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+            </select>
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Điểm trung bình *</label>
+            <input type="number" id="gpa" step="0.01" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" id="email" placeholder="@student.edu.vn" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Mật khẩu tài khoản *</label>
+            <input type="password" id="password" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label>Xác nhận mật khẩu *</label>
+            <input type="password" id="confirmPassword" />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-save">Lưu sinh viên</button>
+            <button type="button" id="btn-close-modal" class="btn-cancel">
+              Hủy
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="students.js"></script>
+  </body>
+</html>
